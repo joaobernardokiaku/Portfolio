@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="../Public/CSS/bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="container-fluid bg-dark text-white">
+    <a name="inicio"></a>
+    <!-- ***************************** Barra de navegação do site **************************** -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <!-- ::::: Logotipo ::::: -->
+        <h5 class="lead text-white">João Bernardo <span class="text-cor">Kiaku</span></h5>
+
+        <!-- ::::: Menu Hamburguer ::::: -->
+        <button class="navbar-toggler cor" data-toggle="collapse" data-target="#links">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ::::: Navegação ::::: -->
+        <div class="collapse navbar-collapse" id="links">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactos">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ************************************************************************************* -->
+    <header class="pl-5 pr-5">
+        <figure class="text-center">
+            <img src="../Public/IMG/foto.png" class="imagem" alt="Imagem">
+            <figcaption>
+                <h2>Chamo-me João Bernardo <span class="text-cor">Kiaku</span></h2>
+                <h5>Sou um <span class="text-cor">Desenvolvedor Web Front-end</span></h5>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt deserunt dolorum, ratione rem sed
+                    quaerat fugiat accusamus quas asperiores, repellat et cumque odio neque quod, porro nemo sapiente.
+                </p>
+            </figcaption>
+            <div class="nav">
+                <a href="#">
+                    <img src="../Public/IMG/facebook.png" alt="Facebook">
+                    <div>Facebook</div>
+                </a>
+                <a href="#">
+                    <img src="../Public/IMG/twiter.png" alt="Twiter">
+                    <div>Twiter</div>
+                </a>
+                <a href="#">
+                    <img src="../Public/IMG/linkedin.png" alt="Linkdin">
+                    <div>Linkdin</div>
+                </a>
+                <a href="#">
+                    <img src="../Public/IMG/github.PNG" alt="Github">
+                    <div>Github</div>
+                </a>
+            </div>
+            <a href="#" class="link btn">Segue-me</a>
+        </figure>
+    </header>
+    <a name="sobre"></a>
+    <section class="content-sobre p-5">
+        <div class="col-12 col-sm-12 col-md-8">
+            <h1>Sobre <span class="text-cor">mim</span></h1>
+            <h4 class="text-cor">Desenvolvedor Web</h4>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt deserunt dolorum, ratione rem sed
+                quaerat fugiat accusamus quas asperiores, repellat et cumque quaerat fugiat accusamus odio neque quod,
+                porro nemo sapiente.
+            </p>
+            <a href="#" class="link btn">Segue-me</a>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 text-center">
+            <img src="../Public/IMG/foto.png" alt="Imagem">
+        </div>
+    </section>
+    <a name="servicos"></a>
+    <section class="content-servicos p-5">
+        <h1>Serviços</h1>
+        <div class="servicos-itns">
+            <div class="col-12 col-sm-12 col-md-3 p-4">
+                <h4>Desenvolvedor Front-end</h4>
+                <img src="../Public/Recursos/front.gif">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 p-4">
+                <h4>Desenvolvedor Back-end</h4>
+                <img src="../Public/Recursos/back.gif">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="bg-cor col-12 col-sm-12 col-md-3 p-4">
+                <h4>Técnico de Informática</h4>
+                <img src="../Public/Recursos/tec.gif">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </section>
+    <a name="galeria"></a>
+    <section class="container p-5 text-center">
+        <h1>Galeria</h1>
+        <h3>Meus SLIDER</h3>
+    </section>
+    <a name="contactos"></a>
+    <section class="content-contactos text-center p-5">
+        <h1>Contacta-<span class="text-cor">me</span></h1>
+        <form class=" col-12 col-sm-12 col-md-8" action="" method="post">
+            <input type="text" name="nome" class="form-contro" placeholder="Nome">
+            <input type="email" name="email" class="form-contro" placeholder="Email">
+            <input type="tel" name="telefone" class="form-contro" placeholder="Telefone">
+            <textarea name="msm" id="" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+            <button type="submit" class="btn link">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="nav">
+            <a href="#">
+                <img src="../Public/IMG/facebook.png" alt="Facebook">
+                <div>Facebook</div>
+            </a>
+            <a href="#">
+                <img src="../Public/IMG/twiter.png" alt="Twiter">
+                <div>Twiter</div>
+            </a>
+            <a href="#">
+                <img src="../Public/IMG/linkedin.png" alt="Linkdin">
+                <div>Linkdin</div>
+            </a>
+            <a href="#">
+                <img src="../Public/IMG/github.PNG" alt="Github">
+                <div>Github</div>
+            </a>
+        </div>
+        <h6>&copy; Todos os Direitos Reservados</h6>
+    </footer>
+
+    <script src="../Public/JS/jquery-3.7.0.js"></script>
+    <script src="../Public/JS/bootstrap.min.js"></script>
+</body>
+
+</html>

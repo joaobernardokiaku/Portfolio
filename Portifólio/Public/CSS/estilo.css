@@ -1,0 +1,242 @@
+.bg-cor{
+    background-color: cyan;
+}
+
+.text-cor{
+    color: cyan;
+}
+
+.link{
+    text-decoration: none;
+    background-color: cyan;
+    color: #222;
+    margin-top: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover{
+    color: #fff;
+    background-color: darkcyan;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+header .imagem{
+    width: 230px;
+    border-radius: 100%; 
+    margin: 20px 0;  
+    border: 1px solid cyan;
+}
+
+/* ....... Efeito writing ....... */
+header #efeito-writing{
+    display: inline-flex;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: escreve 3.5s steps(25) infinite alternate, n 800ms steps(10) infinite normal;
+    border-right: 5px solid cyan;
+}
+
+@keyframes escreve {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 298px;
+    }
+}
+@keyframes n{
+    from{
+        border-color: cyan;
+    }
+    to{
+        border-color: transparent;
+    }
+}
+/* ....... Fim efeito writing ....... */
+
+header p{
+    display: flex;
+    width: 85%;
+    margin: 25px auto;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+}
+
+header .nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+header .nav a div{
+    display: none;
+}
+
+header .nav a:hover div{
+    display: block;
+}
+
+header .nav a:hover{
+    transform: translateY(-3px) scale(1.2);
+    transition: 0.2s ease-in-out;
+    color: cyan;
+}
+
+header div img{
+    width: 30px;
+    padding: 1px;
+    background-color: cyan;
+    border-radius: 100%;
+}
+
+.content-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-sobre h4{
+    margin: 15px 0;
+}
+
+.content-sobre p{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.content-sobre img{
+    width: 300px;
+    padding: 1px;
+    border: 1px solid cyan;
+    border-radius: 100%;
+}
+
+
+.content-servicos {
+    text-align: center;
+}
+
+.content-servicos .servicos-itns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.content-servicos .servicos-itns div{
+    min-width: 200px;
+    border-radius: 18px;
+    border-top: 2px solid cyan;
+    background-color: white;
+    color: #222;
+    box-shadow: inset 2px 2px 5px cyan;
+}
+
+.content-servicos .servicos-itns div:hover{
+    border-radius: 18px;
+    color: #222;
+    transform: perspective(1.5);
+    transition: 0.4s ease-in-out;
+    box-shadow: inset 0px 3px 60px cyan;
+}
+
+.content-servicos .servicos-itns img{
+    width: 150px;
+}
+
+.content-servicos h4{
+    color: cyan;
+    text-shadow: 0px 1px #222;
+}
+
+
+.content-contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-contactos h1{
+    margin-bottom: 30px;
+}
+
+.content-contactos form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contactos form input, textarea{
+    margin: 3px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid cyan;
+    outline: none;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.content-contactos button{
+    margin: 8px auto;
+    width: 270px;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: #2e343a;
+    border-radius: 20px 20px 0 0;
+}
+
+footer .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+footer .nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+footer .nav a div{
+    display: none;
+}
+
+footer .nav a:hover div{
+    display: block;
+}
+
+footer .nav a:hover{
+    transform: translateY(-3px) scale(1.2);
+    transition: 0.2s ease-in-out;
+    color: cyan;
+}
+
+footer .nav img{
+    width: 30px;
+    padding: 1px;
+    background-color: cyan;
+    border-radius: 100%;
+}
